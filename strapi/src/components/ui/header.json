@@ -16,14 +16,16 @@
         "audios"
       ]
     },
-    "navItems": {
-      "type": "string"
-    },
     "ctaText": {
       "type": "string"
     },
     "ctaUrl": {
       "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "component": "ui.navigation-item",
+      "repeatable": true
     }
   },
   "config": {}

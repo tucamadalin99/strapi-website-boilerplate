@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_navigation_items",
+  "info": {
+    "displayName": "navigation-item",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
