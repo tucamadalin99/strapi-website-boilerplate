@@ -11,8 +11,6 @@ type HeroProps = {
 };
 
 const Hero: React.FC<HeroProps> = ({ title, subtitle, image }) => {
-  console.log("🧩 Hero block data:", { title, subtitle, image });
-
   // Handle image URL properly (Strapi returns relative path)
   const imageUrl = image?.url
     ? image.url.startsWith("http")
